@@ -1,0 +1,460 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login as admin in BO and create a new Post",
+        "description": "",
+        "id": "create-a-new-post;login-as-admin-in-bo-and-create-a-new-post",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5892005358,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open a browser \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 18
+                }
+              ],
+              "location": "BO_Login_Steps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10429136802,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to BO login page",
+            "match": {
+              "location": "BO_Login_Steps.java:12"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11159818729,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username: \"admin\" and password: \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 19
+                },
+                {
+                  "val": "password",
+                  "offset": 41
+                }
+              ],
+              "location": "BO_Login_Steps.java:16"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119167,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "BO_Login_Steps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7666724445,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Add a Post",
+            "match": {
+              "location": "BO_Create_A_Post.java:11"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6015907978,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I create a Post with title: \"This is the title of the post\" and a body: \"This is the body of the post\" and publish",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is the title of the post",
+                  "offset": 29
+                },
+                {
+                  "val": "This is the body of the post",
+                  "offset": 73
+                }
+              ],
+              "location": "BO_Create_A_Post.java:14"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2830544685,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the post\u0027s title is: \"This is the title of the post\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is the title of the post",
+                  "offset": 36
+                }
+              ],
+              "location": "BO_Create_A_Post.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50138639,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I close the browser",
+            "match": {
+              "location": "BO_Login_Steps.java:30"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new post",
+    "description": "Regression tests of login in Backoffice and creating a new post",
+    "id": "create-a-new-post",
+    "keyword": "Feature",
+    "uri": "BO_Create_New_Post.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login with valid username and password in BO as admin",
+        "description": "",
+        "id": "login-in-bo;login-with-valid-username-and-password-in-bo-as-admin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2730025652,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open a browser \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 18
+                }
+              ],
+              "location": "BO_Login_Steps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1229882823,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to BO login page",
+            "match": {
+              "location": "BO_Login_Steps.java:12"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2528744689,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username: \"admin\" and password: \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 19
+                },
+                {
+                  "val": "password",
+                  "offset": 41
+                }
+              ],
+              "location": "BO_Login_Steps.java:16"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72983,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "BO_Login_Steps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984705534,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see my username \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 26
+                }
+              ],
+              "location": "BO_Login_Steps.java:23"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2142644955,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close the browser",
+            "match": {
+              "location": "BO_Login_Steps.java:30"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Unable to login without username and password in BO",
+        "description": "",
+        "id": "login-in-bo;unable-to-login-without-username-and-password-in-bo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2561808766,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Open a browser \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 18
+                }
+              ],
+              "location": "BO_Login_Steps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1277496141,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I navigate to BO login page",
+            "match": {
+              "location": "BO_Login_Steps.java:12"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 870591737,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter username: \"\" and password: \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "password",
+                  "offset": 36
+                }
+              ],
+              "location": "BO_Login_Steps.java:16"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65571,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on login button",
+            "match": {
+              "location": "BO_Login_Steps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164881343,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see login error message",
+            "match": {
+              "location": "BO_Login_Steps.java:33"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152083688,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "BO_Login_Steps.java:30"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Unable to login with valid username: \"admin\", but without password in BO",
+        "description": "",
+        "id": "login-in-bo;unable-to-login-with-valid-username:-\"admin\",-but-without-password-in-bo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2219932639,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Open a browser \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 18
+                }
+              ],
+              "location": "BO_Login_Steps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1162439839,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I navigate to BO login page",
+            "match": {
+              "location": "BO_Login_Steps.java:12"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060652729,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter username: \"admin\" and password: \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 19
+                },
+                {
+                  "val": "",
+                  "offset": 41
+                }
+              ],
+              "location": "BO_Login_Steps.java:16"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63860,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on login button",
+            "match": {
+              "location": "BO_Login_Steps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206075593,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see login error message",
+            "match": {
+              "location": "BO_Login_Steps.java:33"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2274427441,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I close the browser",
+            "match": {
+              "location": "BO_Login_Steps.java:30"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login in BO",
+    "description": "Regression tests of login in Backoffice",
+    "id": "login-in-bo",
+    "keyword": "Feature",
+    "uri": "BO_Login.feature"
+  }
+]
