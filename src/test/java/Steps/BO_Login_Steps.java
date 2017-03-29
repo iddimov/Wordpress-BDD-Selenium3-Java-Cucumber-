@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 public class BO_Login_Steps extends Base.BaseUtil implements En {
     public BO_Login_Steps() {
-        Given("^I navigate to BO login page$", () -> {
+        When("^I navigate to BO login page$", () -> {
             System.out.println("Go To URL...");
             LoginPage.GoToURL();
         });
@@ -27,10 +27,10 @@ public class BO_Login_Steps extends Base.BaseUtil implements En {
         Given("^I Open a browser \"([^\"]*)\"$", (String browserName) -> {
             IDriver.Initialize();
         });
-        Then("^I close the browser$", () -> {
+        And("^I close the browser$", () -> {
             IDriver.Teardown();
         });
-        And("^I should see login error message$", () -> {
+        Then("^I should see login error message$", () -> {
             Assert.assertTrue(LoginPage.ErrorMsg());
         });
     }

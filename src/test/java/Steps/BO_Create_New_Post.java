@@ -14,7 +14,7 @@ public class BO_Create_New_Post implements En {
         And("^I create a Post with title: \"([^\"]*)\" and a body: \"([^\"]*)\" and publish$", (String postTitle, String postBody) -> {
             NewPostPage.CreatePost(postTitle).WithBody(postBody).Publish();
         });
-        And("^I verify that the post's title is: \"([^\"]*)\"$", (String postTitle) -> {
+        Then("^I verify that the post's title is: \"([^\"]*)\"$", (String postTitle) -> {
             NewPostPage.GoToNewPost();
             NewPostPage.SwitchToNewWindow();
 
