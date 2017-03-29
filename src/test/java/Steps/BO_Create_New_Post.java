@@ -8,9 +8,7 @@ import org.testng.Assert;
 
 public class BO_Create_New_Post implements En {
     public BO_Create_New_Post() {
-        And("^I click on Add a Post$", () -> {
-            NewPostPage.GoTo();
-        });
+        And("^I click on Add a Post$", NewPostPage::GoTo);
         And("^I create a Post with title: \"([^\"]*)\" and a body: \"([^\"]*)\" and publish$", (String postTitle, String postBody) -> {
             NewPostPage.CreatePost(postTitle).WithBody(postBody).Publish();
         });

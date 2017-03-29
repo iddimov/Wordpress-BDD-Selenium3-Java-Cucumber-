@@ -11,9 +11,10 @@ public class IDriver {
 
     public static WebDriver driver;
 
-    public static void Initialize(){
+    public static void SetUp(){
         System.setProperty(BaseUtil.driverName,BaseUtil.driverPath);
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
@@ -21,7 +22,7 @@ public class IDriver {
         return "http://wordpress.localhost/";
     }
 
-    public static void Teardown(){
+    public static void TearDown(){
         if(driver != null){
             driver.close();
         }
