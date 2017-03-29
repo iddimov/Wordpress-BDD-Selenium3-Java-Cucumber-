@@ -6,8 +6,8 @@ import cucumber.api.PendingException;
 import cucumber.api.java8.En;
 import org.testng.Assert;
 
-public class BO_Create_A_Post implements En {
-    public BO_Create_A_Post() {
+public class BO_Create_New_Post implements En {
+    public BO_Create_New_Post() {
         And("^I click on Add a Post$", () -> {
             NewPostPage.GoTo();
         });
