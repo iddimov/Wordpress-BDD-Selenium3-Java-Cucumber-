@@ -64,14 +64,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 5564988799,
+  "duration": 6329909405,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1203818722,
+  "duration": 1382632782,
   "status": "passed"
 });
 formatter.match({
@@ -88,21 +88,21 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 2149566692,
+  "duration": 3315141179,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 45614,
+  "duration": 46185,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Create_New_Post.java:11"
 });
 formatter.result({
-  "duration": 3806171968,
+  "duration": 4607512802,
   "status": "passed"
 });
 formatter.match({
@@ -119,7 +119,7 @@ formatter.match({
   "location": "BO_Create_New_Post.java:12"
 });
 formatter.result({
-  "duration": 6362903994,
+  "duration": 6260458664,
   "status": "passed"
 });
 formatter.match({
@@ -132,14 +132,14 @@ formatter.match({
   "location": "BO_Create_New_Post.java:15"
 });
 formatter.result({
-  "duration": 3157168898,
+  "duration": 2343654727,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 33474681,
+  "duration": 70729083,
   "status": "passed"
 });
 formatter.uri("BO_Login.feature");
@@ -198,14 +198,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 3494795115,
+  "duration": 3734762089,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1164324653,
+  "duration": 1100000399,
   "status": "passed"
 });
 formatter.match({
@@ -222,14 +222,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 2274315171,
+  "duration": 2222766934,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 502329,
+  "duration": 48466,
   "status": "passed"
 });
 formatter.match({
@@ -242,14 +242,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 913635449,
+  "duration": 864264728,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 2129801412,
+  "duration": 225229540,
   "status": "passed"
 });
 formatter.scenario({
@@ -300,14 +300,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 3407152220,
+  "duration": 3438658641,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1110380521,
+  "duration": 1141735274,
   "status": "passed"
 });
 formatter.match({
@@ -324,28 +324,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 830983338,
+  "duration": 819042634,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 29649,
+  "duration": 31930,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:29"
 });
 formatter.result({
-  "duration": 156189329,
+  "duration": 149070065,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 2144378627,
+  "duration": 288241811,
   "status": "passed"
 });
 formatter.scenario({
@@ -396,14 +396,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 3660016661,
+  "duration": 3461220082,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1125076903,
+  "duration": 1124280932,
   "status": "passed"
 });
 formatter.match({
@@ -420,28 +420,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 846799553,
+  "duration": 836901232,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 27938,
+  "duration": 28509,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:29"
 });
 formatter.result({
-  "duration": 148284928,
+  "duration": 148447999,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 262588285,
+  "duration": 277548091,
   "status": "passed"
 });
 formatter.scenario({
@@ -492,14 +492,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 3484473721,
+  "duration": 3415751101,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1191956703,
+  "duration": 1160267254,
   "status": "passed"
 });
 formatter.match({
@@ -516,28 +516,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 887139767,
+  "duration": 899689423,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 30220,
+  "duration": 27939,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:29"
 });
 formatter.result({
-  "duration": 150770911,
+  "duration": 189106374,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 2123030528,
+  "duration": 305724091,
   "status": "passed"
 });
 formatter.scenario({
@@ -588,14 +588,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 5205008687,
+  "duration": 4752998717,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1727460938,
+  "duration": 1604832957,
   "status": "passed"
 });
 formatter.match({
@@ -612,14 +612,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 360498976,
+  "duration": 344862937,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 28509,
+  "duration": 26799,
   "status": "passed"
 });
 formatter.match({
@@ -632,8 +632,8 @@ formatter.match({
   "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 2355045206,
-  "error_message": "org.openqa.selenium.InvalidArgumentException: Missing or invalid type argument for pointer action\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027JD-PC\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003dC:\\Users\\JD\\AppData\\Local\\Temp\\rust_mozprofile.HJUKeJQ8NWky, rotatable\u003dfalse, timeouts\u003d{implicit\u003d0, page load\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, platform\u003dANY, specificationLevel\u003d0, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d52.0.2, platformVersion\u003d10.0, moz:processID\u003d7908, browserName\u003dfirefox, platformName\u003dwindows_nt}]\nSession ID: 29732221-5bd2-404b-b7b5-91d4aa614abc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:670)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:634)\r\n\tat Pages.DashboardPage.AccountName(DashboardPage.java:19)\r\n\tat Steps.BO_Login_Steps.lambda$new$2(BO_Login_Steps.java:23)\r\n\tat ✽.Then I should see my username \"admin\"(BO_Login.feature:42)\r\n",
+  "duration": 1718149333,
+  "error_message": "org.openqa.selenium.InvalidArgumentException: Missing or invalid type argument for pointer action\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027JD-PC\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003dC:\\Users\\JD\\AppData\\Local\\Temp\\rust_mozprofile.x1Cr33yU4Zik, rotatable\u003dfalse, timeouts\u003d{implicit\u003d0, page load\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, platform\u003dANY, specificationLevel\u003d0, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d52.0.2, platformVersion\u003d10.0, moz:processID\u003d2516, browserName\u003dfirefox, platformName\u003dwindows_nt}]\nSession ID: 18a99653-2654-4d17-b5a4-1a0288dc4481\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:670)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:634)\r\n\tat Pages.DashboardPage.AccountName(DashboardPage.java:19)\r\n\tat Steps.BO_Login_Steps.lambda$new$2(BO_Login_Steps.java:23)\r\n\tat ✽.Then I should see my username \"admin\"(BO_Login.feature:42)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -690,14 +690,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 4737280574,
+  "duration": 4800763813,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1741253586,
+  "duration": 1701051925,
   "status": "passed"
 });
 formatter.match({
@@ -714,28 +714,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 247353654,
+  "duration": 235099921,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 31359,
+  "duration": 29649,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:29"
 });
 formatter.result({
-  "duration": 705179456,
+  "duration": 808313562,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 6263424,
+  "duration": 6319301,
   "status": "passed"
 });
 formatter.scenario({
@@ -786,14 +786,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 4888382189,
+  "duration": 4696138116,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1728023136,
+  "duration": 1734405727,
   "status": "passed"
 });
 formatter.match({
@@ -810,28 +810,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 327618422,
+  "duration": 390751001,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 26228,
+  "duration": 57018,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:29"
 });
 formatter.result({
-  "duration": 668697077,
+  "duration": 785526330,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 5856316,
+  "duration": 5244513,
   "status": "passed"
 });
 formatter.scenario({
@@ -882,14 +882,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:25"
 });
 formatter.result({
-  "duration": 4626081275,
+  "duration": 4838785107,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 1523073748,
+  "duration": 1621869357,
   "status": "passed"
 });
 formatter.match({
@@ -906,28 +906,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:16"
 });
 formatter.result({
-  "duration": 187287502,
+  "duration": 276947121,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:19"
 });
 formatter.result({
-  "duration": 27939,
+  "duration": 29649,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:29"
 });
 formatter.result({
-  "duration": 758090992,
+  "duration": 688112836,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:28"
 });
 formatter.result({
-  "duration": 5169819,
+  "duration": 6122589,
   "status": "passed"
 });
 });

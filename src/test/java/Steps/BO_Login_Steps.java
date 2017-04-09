@@ -22,9 +22,7 @@ public class BO_Login_Steps extends Base.BaseUtil implements En {
         Then("^I should see my username \"([^\"]*)\"$", (String userName) -> {
             Assert.assertEquals(DashboardPage.AccountName(),userName);
         });
-        Given("^I Open a browser \"([^\"]*)\"$", (String browserName) -> {
-            IDriver.SetUp(browserName);
-        });
+        Given("^I Open a browser \"([^\"]*)\"$", IDriver::SetUp);
         And("^I close the browser$", IDriver::TearDown);
         Then("^I should see login error message$", () -> {
             Assert.assertTrue(LoginPage.ErrorMsg());

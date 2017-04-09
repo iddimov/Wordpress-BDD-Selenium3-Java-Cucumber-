@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47f65c0-4290-441d-9dda-d4383375ab61" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Base/IDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/Base/IDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Steps/BO_Login_Steps.class" afterPath="$PROJECT_DIR$/target/test-classes/Steps/BO_Login_Steps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Base/IDriver.java" afterPath="$PROJECT_DIR$/src/test/java/Base/IDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Features/BO_Login.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/BO_Login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cucumber=pretty/report.js" afterPath="$PROJECT_DIR$/target/site/cucumber=pretty/report.js" />
@@ -22,7 +22,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IDriver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Base/IDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BO_Login_Steps.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BO_Login_Steps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -162,10 +162,10 @@
         <option value="$PROJECT_DIR$/Wordpress-BDD(Selenium3-Java-Cucumber).iml" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/BO_Create_New_Post.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Base/IDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/BO_Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java" />
       </list>
     </option>
   </component>
@@ -840,13 +840,17 @@
       <option name="project" value="LOCAL" />
       <updated>1491750589045</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1491756327945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491756327945</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2017.04.09 at 16h 06m 35s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2017.04.09 at 16h 10m 35s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
@@ -872,6 +876,9 @@
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestRunner - 2017.04.09 at 17h 44m 17s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.04.09 at 17h 47m 22s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1226,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1257,6 +1256,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/BO_Login_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
