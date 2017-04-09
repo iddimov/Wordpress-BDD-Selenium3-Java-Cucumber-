@@ -6,8 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static Base.IDriver.Initialize;
-
 public class LoginPage {
     public static void GoToURL() {
         IDriver.driver.navigate().to(IDriver.Base_BO_URL() + "wp-login.php");
