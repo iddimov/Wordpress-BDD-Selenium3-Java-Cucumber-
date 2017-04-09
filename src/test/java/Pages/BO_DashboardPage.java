@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class DashboardPage {
+public class BO_DashboardPage {
 
     public static String AccountName(){
         WebDriverWait wait = new WebDriverWait(IDriver.driver, 5);

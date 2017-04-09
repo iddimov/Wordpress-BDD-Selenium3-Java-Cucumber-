@@ -4,7 +4,7 @@ import Base.IDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class PostPage {
+public class FO_PostPage {
 
     public static String Title(){
 

@@ -6,7 +6,7 @@ import Commands.CreatePostCommand;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class NewPostPage {
+public class BO_NewPostPage {
 
     public static void GoTo() {
         WebElement menuPosts = IDriver.driver.findElement(By.id("menu-posts"));
