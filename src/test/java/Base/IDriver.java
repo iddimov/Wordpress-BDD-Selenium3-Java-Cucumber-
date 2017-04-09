@@ -2,19 +2,29 @@ package Base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-
-import java.util.Arrays;
-import java.util.Collection;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
+
+import static Base.BaseUtil.*;
+
 
 public class IDriver {
     public static WebDriver driver;
 
-    public static void SetUp(){
-        System.setProperty(BaseUtil.driverName,BaseUtil.driverPath);
-        driver = new ChromeDriver();
+    public static void SetUp(String browserName){
+        if(browserName.equalsIgnoreCase("Chrome")){
+            System.setProperty(driverName_Chrome,driverPath_Chrome);
+            driver = new ChromeDriver();
+        }
+        else if(browserName.equalsIgnoreCase("Firefox")){
+            System.setProperty(driverName_Firefox,driverPath_Firefox);
+            driver = new FirefoxDriver();
+        }
+        else if(browserName.equalsIgnoreCase("Edge")){
+            System.setProperty(driverName_Edge,driverPath_Edge);
+            driver = new EdgeDriver();
+        }
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
