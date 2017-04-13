@@ -9,10 +9,10 @@ import org.openqa.selenium.WebElement;
 public class BO_NewPostPage {
 
     public static void GoTo() {
-        WebElement menuPosts = IDriver.driver.findElement(By.id("menu-posts"));
+        WebElement menuPosts = IDriver.getDriver().findElement(By.id("menu-posts"));
         menuPosts.click();
 
-        WebElement addNew = IDriver.driver.findElement(By.linkText("Add New"));
+        WebElement addNew = IDriver.getDriver().findElement(By.linkText("Add New"));
         addNew.click();
     }
 
@@ -22,7 +22,7 @@ public class BO_NewPostPage {
 
     public static void GoToNewPost() {
 
-        WebElement message = IDriver.driver.findElement(By.id("sample-permalink"));
+        WebElement message = IDriver.getDriver().findElement(By.id("sample-permalink"));
         WebElement newPostLink = message.findElements(By.tagName("a")).get(0);
         newPostLink.click();
     }
@@ -30,8 +30,8 @@ public class BO_NewPostPage {
     public static void SwitchToNewWindow(){
         //String winHandleBefore = IDriver.Instance.getWindowHandle();
 
-        for(String winHandle : IDriver.driver.getWindowHandles()){
-            IDriver.driver.switchTo().window(winHandle);
+        for(String winHandle : IDriver.getDriver().getWindowHandles()){
+            IDriver.getDriver().switchTo().window(winHandle);
         }
         //IDriver.Instance.switchTo().window(winHandleBefore);
     }

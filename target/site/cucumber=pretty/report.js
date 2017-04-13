@@ -8,9 +8,9 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 4,
-  "name": "Login as admin in BO and create a new Post",
+  "name": "Login as admin in BO and create a new Post. (Test Variant: Desktop, Browser Chrome)",
   "description": "",
-  "id": "create-a-new-post;login-as-admin-in-bo-and-create-a-new-post",
+  "id": "create-a-new-post;login-as-admin-in-bo-and-create-a-new-post.-(test-variant:-desktop,-browser-chrome)",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -61,17 +61,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "BO_Login_Steps.java:21"
+  "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 5135396586,
+  "duration": 5079155470,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:11"
 });
 formatter.result({
-  "duration": 1282996157,
+  "duration": 1418235664,
   "status": "passed"
 });
 formatter.match({
@@ -88,21 +88,21 @@ formatter.match({
   "location": "BO_Login_Steps.java:12"
 });
 formatter.result({
-  "duration": 2104040693,
+  "duration": 2141167288,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 44474,
+  "duration": 47895,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Create_New_Post.java:10"
 });
 formatter.result({
-  "duration": 3814472073,
+  "duration": 4084614959,
   "status": "passed"
 });
 formatter.match({
@@ -119,7 +119,7 @@ formatter.match({
   "location": "BO_Create_New_Post.java:11"
 });
 formatter.result({
-  "duration": 6226461699,
+  "duration": 9420233581,
   "status": "passed"
 });
 formatter.match({
@@ -132,14 +132,14 @@ formatter.match({
   "location": "BO_Create_New_Post.java:14"
 });
 formatter.result({
-  "duration": 2347045586,
+  "duration": 2451258876,
   "status": "passed"
 });
 formatter.match({
-  "location": "BO_Login_Steps.java:22"
+  "location": "BO_Login_Steps.java:23"
 });
 formatter.result({
-  "duration": 28462231,
+  "duration": 36364476,
   "status": "passed"
 });
 formatter.uri("BO_Login.feature");
@@ -152,9 +152,9 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 4,
-  "name": "Login with valid username and password in BO as admin",
+  "name": "Login with valid username and password in BO as admin. (Test Variant: Desktop, Browser Chrome)",
   "description": "",
-  "id": "login-in-bo;login-with-valid-username-and-password-in-bo-as-admin",
+  "id": "login-in-bo;login-with-valid-username-and-password-in-bo-as-admin.-(test-variant:-desktop,-browser-chrome)",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -195,17 +195,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "BO_Login_Steps.java:21"
+  "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 3650836197,
+  "duration": 3545950085,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:11"
 });
 formatter.result({
-  "duration": 1201392607,
+  "duration": 1213168687,
   "status": "passed"
 });
 formatter.match({
@@ -222,14 +222,14 @@ formatter.match({
   "location": "BO_Login_Steps.java:12"
 });
 formatter.result({
-  "duration": 2243615555,
+  "duration": 2256581180,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 37632,
+  "duration": 34781,
   "status": "passed"
 });
 formatter.match({
@@ -242,21 +242,21 @@ formatter.match({
   "location": "BO_Login_Steps.java:18"
 });
 formatter.result({
-  "duration": 898524546,
+  "duration": 993772476,
   "status": "passed"
 });
 formatter.match({
-  "location": "BO_Login_Steps.java:22"
+  "location": "BO_Login_Steps.java:23"
 });
 formatter.result({
-  "duration": 272056120,
+  "duration": 242078039,
   "status": "passed"
 });
 formatter.scenario({
   "line": 12,
-  "name": "Unable to login without username and password in BO",
+  "name": "Unable to login without username and password in BO. (Test Variant: Desktop, Browser Chrome)",
   "description": "",
-  "id": "login-in-bo;unable-to-login-without-username-and-password-in-bo",
+  "id": "login-in-bo;unable-to-login-without-username-and-password-in-bo.-(test-variant:-desktop,-browser-chrome)",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -297,17 +297,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "BO_Login_Steps.java:21"
+  "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 3617953933,
+  "duration": 3636750945,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:11"
 });
 formatter.result({
-  "duration": 1167874022,
+  "duration": 1205735800,
   "status": "passed"
 });
 formatter.match({
@@ -324,35 +324,35 @@ formatter.match({
   "location": "BO_Login_Steps.java:12"
 });
 formatter.result({
-  "duration": 836430835,
+  "duration": 881330370,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 31359,
+  "duration": 31930,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BO_Login_Steps.java:24"
+});
+formatter.result({
+  "duration": 149276411,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:23"
 });
 formatter.result({
-  "duration": 155859196,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BO_Login_Steps.java:22"
-});
-formatter.result({
-  "duration": 233985220,
+  "duration": 2130378310,
   "status": "passed"
 });
 formatter.scenario({
   "line": 20,
-  "name": "Unable to login with valid username: \"admin\", but without password in BO",
+  "name": "Unable to login with valid username: \"admin\", but without password in BO. (Test Variant: Desktop, Browser Chrome)",
   "description": "",
-  "id": "login-in-bo;unable-to-login-with-valid-username:-\"admin\",-but-without-password-in-bo",
+  "id": "login-in-bo;unable-to-login-with-valid-username:-\"admin\",-but-without-password-in-bo.-(test-variant:-desktop,-browser-chrome)",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -393,17 +393,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "BO_Login_Steps.java:21"
+  "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 3644140576,
+  "duration": 3505947850,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:11"
 });
 formatter.result({
-  "duration": 1191765123,
+  "duration": 1299605947,
   "status": "passed"
 });
 formatter.match({
@@ -420,35 +420,35 @@ formatter.match({
   "location": "BO_Login_Steps.java:12"
 });
 formatter.result({
-  "duration": 847163327,
+  "duration": 858378278,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 31360,
+  "duration": 39343,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BO_Login_Steps.java:24"
+});
+formatter.result({
+  "duration": 186475633,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:23"
 });
 formatter.result({
-  "duration": 160113876,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BO_Login_Steps.java:22"
-});
-formatter.result({
-  "duration": 2126778889,
+  "duration": 303509412,
   "status": "passed"
 });
 formatter.scenario({
   "line": 28,
-  "name": "Unable to login without username, but with valid admin\u0027s password in BO",
+  "name": "Unable to login without username, but with valid admin\u0027s password in BO. (Test Variant: Desktop, Browser Chrome)",
   "description": "",
-  "id": "login-in-bo;unable-to-login-without-username,-but-with-valid-admin\u0027s-password-in-bo",
+  "id": "login-in-bo;unable-to-login-without-username,-but-with-valid-admin\u0027s-password-in-bo.-(test-variant:-desktop,-browser-chrome)",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -489,17 +489,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "BO_Login_Steps.java:21"
+  "location": "BO_Login_Steps.java:22"
 });
 formatter.result({
-  "duration": 3483350467,
+  "duration": 3666920968,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:11"
 });
 formatter.result({
-  "duration": 1222907198,
+  "duration": 1164071485,
   "status": "passed"
 });
 formatter.match({
@@ -516,28 +516,28 @@ formatter.match({
   "location": "BO_Login_Steps.java:12"
 });
 formatter.result({
-  "duration": 921144146,
+  "duration": 867236620,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:15"
 });
 formatter.result({
-  "duration": 35352,
+  "duration": 30790,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BO_Login_Steps.java:24"
+});
+formatter.result({
+  "duration": 150542785,
   "status": "passed"
 });
 formatter.match({
   "location": "BO_Login_Steps.java:23"
 });
 formatter.result({
-  "duration": 191266215,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BO_Login_Steps.java:22"
-});
-formatter.result({
-  "duration": 249353274,
+  "duration": 2150453266,
   "status": "passed"
 });
 });

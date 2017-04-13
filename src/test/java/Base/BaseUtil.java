@@ -10,4 +10,5 @@ public class BaseUtil {
 
     public static String driverName_Edge = "webdriver.edge.driver";
     public static String driverPath_Edge = "E:\\Books\\QA testing\\Testing Tools\\Selenium\\BrowserDrivers\\MicrosoftWebDriver.exe";
+
 }

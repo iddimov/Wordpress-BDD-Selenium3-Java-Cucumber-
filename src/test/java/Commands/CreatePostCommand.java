@@ -20,14 +20,14 @@ public class CreatePostCommand {
     }
 
     public void Publish() {
-        IDriver.driver.findElement(By.id("title")).sendKeys(title);
+        IDriver.getDriver().findElement(By.id("title")).sendKeys(title);
 
-        IDriver.driver.switchTo().frame("content_ifr");
-        IDriver.driver.switchTo().activeElement().sendKeys(body);
-        IDriver.driver.switchTo().defaultContent();
+        IDriver.getDriver().switchTo().frame("content_ifr");
+        IDriver.getDriver().switchTo().activeElement().sendKeys(body);
+        IDriver.getDriver().switchTo().defaultContent();
 
-        IDriver.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        IDriver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        IDriver.driver.findElement(By.id("publish")).click();
+        IDriver.getDriver().findElement(By.id("publish")).click();
     }
 }

@@ -17,6 +17,7 @@ public class BO_Login_Steps implements En {
         });
         Then("^I should see my username \"([^\"]*)\"$", (String userName) -> {
             Assert.assertEquals(BO_DashboardPage.AccountName(),userName);
+            System.out.println("Username in dashboard is: " + BO_DashboardPage.AccountName());
         });
         Given("^I Open a browser \"([^\"]*)\"$", IDriver::SetUp);
         And("^I close the browser$", IDriver::TearDown);

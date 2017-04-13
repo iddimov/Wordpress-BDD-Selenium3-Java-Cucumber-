@@ -1,26 +1,23 @@
 package Pages;
 
+import Base.BaseHTML_Classes;
+import Base.BaseHTML_IDs;
 import Base.IDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BO_DashboardPage {
 
     public static String AccountName(){
-        WebDriverWait wait = new WebDriverWait(IDriver.driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("wp-admin-bar-my-account")));
+        IDriver.WaitForElementWithID(BaseHTML_IDs.bo_LoginPage_wp_admin_bar_my_account,5);
+        Actions actions = new Actions(IDriver.getDriver());
 
-        Actions actions = new Actions(IDriver.driver);
-        WebElement barMyAccount = IDriver.driver.findElement(By.id("wp-admin-bar-my-account"));
+        WebElement barMyAccount = IDriver.getDriver().findElement(By.id(BaseHTML_IDs.bo_LoginPage_wp_admin_bar_my_account));
         actions.moveToElement(barMyAccount);
         actions.build().perform();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("display-name")));
-        String displayName = IDriver.driver.findElement(By.className("display-name")).getText();
-
-        return displayName;
+        IDriver.WaitForElementWithClass(BaseHTML_Classes.bo_Dashboard_display_name,5);
+        return IDriver.getDriver().findElement(By.className(BaseHTML_Classes.bo_Dashboard_display_name)).getText();
     }
 }

@@ -8,7 +8,7 @@ public class FO_PostPage {
 
     public static String Title(){
 
-        WebElement title = IDriver.driver.findElement(By.className("entry-title"));
+        WebElement title = IDriver.getDriver().findElement(By.className("entry-title"));
         if(title != null){
             return title.getText();
         }

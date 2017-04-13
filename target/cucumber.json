@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 4,
-        "name": "Login as admin in BO and create a new Post",
+        "name": "Login as admin in BO and create a new Post. (Test Variant: Desktop, Browser Chrome)",
         "description": "",
-        "id": "create-a-new-post;login-as-admin-in-bo-and-create-a-new-post",
+        "id": "create-a-new-post;login-as-admin-in-bo-and-create-a-new-post.-(test-variant:-desktop,-browser-chrome)",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5135396586,
+              "duration": 5079155470,
               "status": "passed"
             },
             "line": 5,
@@ -24,13 +24,13 @@
                   "offset": 18
                 }
               ],
-              "location": "BO_Login_Steps.java:21"
+              "location": "BO_Login_Steps.java:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1282996157,
+              "duration": 1418235664,
               "status": "passed"
             },
             "line": 6,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 2104040693,
+              "duration": 2141167288,
               "status": "passed"
             },
             "line": 7,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 44474,
+              "duration": 47895,
               "status": "passed"
             },
             "line": 8,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 3814472073,
+              "duration": 4084614959,
               "status": "passed"
             },
             "line": 9,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 6226461699,
+              "duration": 9420233581,
               "status": "passed"
             },
             "line": 10,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 2347045586,
+              "duration": 2451258876,
               "status": "passed"
             },
             "line": 11,
@@ -128,13 +128,13 @@
           },
           {
             "result": {
-              "duration": 28462231,
+              "duration": 36364476,
               "status": "passed"
             },
             "line": 12,
             "name": "I close the browser",
             "match": {
-              "location": "BO_Login_Steps.java:22"
+              "location": "BO_Login_Steps.java:23"
             },
             "keyword": "And "
           }
@@ -152,15 +152,15 @@
     "elements": [
       {
         "line": 4,
-        "name": "Login with valid username and password in BO as admin",
+        "name": "Login with valid username and password in BO as admin. (Test Variant: Desktop, Browser Chrome)",
         "description": "",
-        "id": "login-in-bo;login-with-valid-username-and-password-in-bo-as-admin",
+        "id": "login-in-bo;login-with-valid-username-and-password-in-bo-as-admin.-(test-variant:-desktop,-browser-chrome)",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3650836197,
+              "duration": 3545950085,
               "status": "passed"
             },
             "line": 5,
@@ -172,13 +172,13 @@
                   "offset": 18
                 }
               ],
-              "location": "BO_Login_Steps.java:21"
+              "location": "BO_Login_Steps.java:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1201392607,
+              "duration": 1213168687,
               "status": "passed"
             },
             "line": 6,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 2243615555,
+              "duration": 2256581180,
               "status": "passed"
             },
             "line": 7,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 37632,
+              "duration": 34781,
               "status": "passed"
             },
             "line": 8,
@@ -224,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 898524546,
+              "duration": 993772476,
               "status": "passed"
             },
             "line": 9,
@@ -242,13 +242,13 @@
           },
           {
             "result": {
-              "duration": 272056120,
+              "duration": 242078039,
               "status": "passed"
             },
             "line": 10,
             "name": "I close the browser",
             "match": {
-              "location": "BO_Login_Steps.java:22"
+              "location": "BO_Login_Steps.java:23"
             },
             "keyword": "And "
           }
@@ -256,15 +256,15 @@
       },
       {
         "line": 12,
-        "name": "Unable to login without username and password in BO",
+        "name": "Unable to login without username and password in BO. (Test Variant: Desktop, Browser Chrome)",
         "description": "",
-        "id": "login-in-bo;unable-to-login-without-username-and-password-in-bo",
+        "id": "login-in-bo;unable-to-login-without-username-and-password-in-bo.-(test-variant:-desktop,-browser-chrome)",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3617953933,
+              "duration": 3636750945,
               "status": "passed"
             },
             "line": 13,
@@ -276,13 +276,13 @@
                   "offset": 18
                 }
               ],
-              "location": "BO_Login_Steps.java:21"
+              "location": "BO_Login_Steps.java:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1167874022,
+              "duration": 1205735800,
               "status": "passed"
             },
             "line": 14,
@@ -294,7 +294,7 @@
           },
           {
             "result": {
-              "duration": 836430835,
+              "duration": 881330370,
               "status": "passed"
             },
             "line": 15,
@@ -316,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 31359,
+              "duration": 31930,
               "status": "passed"
             },
             "line": 16,
@@ -328,25 +328,25 @@
           },
           {
             "result": {
-              "duration": 155859196,
+              "duration": 149276411,
               "status": "passed"
             },
             "line": 17,
             "name": "I should see login error message",
             "match": {
-              "location": "BO_Login_Steps.java:23"
+              "location": "BO_Login_Steps.java:24"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 233985220,
+              "duration": 2130378310,
               "status": "passed"
             },
             "line": 18,
             "name": "I close the browser",
             "match": {
-              "location": "BO_Login_Steps.java:22"
+              "location": "BO_Login_Steps.java:23"
             },
             "keyword": "And "
           }
@@ -354,15 +354,15 @@
       },
       {
         "line": 20,
-        "name": "Unable to login with valid username: \"admin\", but without password in BO",
+        "name": "Unable to login with valid username: \"admin\", but without password in BO. (Test Variant: Desktop, Browser Chrome)",
         "description": "",
-        "id": "login-in-bo;unable-to-login-with-valid-username:-\"admin\",-but-without-password-in-bo",
+        "id": "login-in-bo;unable-to-login-with-valid-username:-\"admin\",-but-without-password-in-bo.-(test-variant:-desktop,-browser-chrome)",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3644140576,
+              "duration": 3505947850,
               "status": "passed"
             },
             "line": 21,
@@ -374,13 +374,13 @@
                   "offset": 18
                 }
               ],
-              "location": "BO_Login_Steps.java:21"
+              "location": "BO_Login_Steps.java:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1191765123,
+              "duration": 1299605947,
               "status": "passed"
             },
             "line": 22,
@@ -392,7 +392,7 @@
           },
           {
             "result": {
-              "duration": 847163327,
+              "duration": 858378278,
               "status": "passed"
             },
             "line": 23,
@@ -414,7 +414,7 @@
           },
           {
             "result": {
-              "duration": 31360,
+              "duration": 39343,
               "status": "passed"
             },
             "line": 24,
@@ -426,25 +426,25 @@
           },
           {
             "result": {
-              "duration": 160113876,
+              "duration": 186475633,
               "status": "passed"
             },
             "line": 25,
             "name": "I should see login error message",
             "match": {
-              "location": "BO_Login_Steps.java:23"
+              "location": "BO_Login_Steps.java:24"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2126778889,
+              "duration": 303509412,
               "status": "passed"
             },
             "line": 26,
             "name": "I close the browser",
             "match": {
-              "location": "BO_Login_Steps.java:22"
+              "location": "BO_Login_Steps.java:23"
             },
             "keyword": "And "
           }
@@ -452,15 +452,15 @@
       },
       {
         "line": 28,
-        "name": "Unable to login without username, but with valid admin\u0027s password in BO",
+        "name": "Unable to login without username, but with valid admin\u0027s password in BO. (Test Variant: Desktop, Browser Chrome)",
         "description": "",
-        "id": "login-in-bo;unable-to-login-without-username,-but-with-valid-admin\u0027s-password-in-bo",
+        "id": "login-in-bo;unable-to-login-without-username,-but-with-valid-admin\u0027s-password-in-bo.-(test-variant:-desktop,-browser-chrome)",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3483350467,
+              "duration": 3666920968,
               "status": "passed"
             },
             "line": 29,
@@ -472,13 +472,13 @@
                   "offset": 18
                 }
               ],
-              "location": "BO_Login_Steps.java:21"
+              "location": "BO_Login_Steps.java:22"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1222907198,
+              "duration": 1164071485,
               "status": "passed"
             },
             "line": 30,
@@ -490,7 +490,7 @@
           },
           {
             "result": {
-              "duration": 921144146,
+              "duration": 867236620,
               "status": "passed"
             },
             "line": 31,
@@ -512,7 +512,7 @@
           },
           {
             "result": {
-              "duration": 35352,
+              "duration": 30790,
               "status": "passed"
             },
             "line": 32,
@@ -524,25 +524,25 @@
           },
           {
             "result": {
-              "duration": 191266215,
+              "duration": 150542785,
               "status": "passed"
             },
             "line": 33,
             "name": "I should see login error message",
             "match": {
-              "location": "BO_Login_Steps.java:23"
+              "location": "BO_Login_Steps.java:24"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 249353274,
+              "duration": 2150453266,
               "status": "passed"
             },
             "line": 34,
             "name": "I close the browser",
             "match": {
-              "location": "BO_Login_Steps.java:22"
+              "location": "BO_Login_Steps.java:23"
             },
             "keyword": "And "
           }

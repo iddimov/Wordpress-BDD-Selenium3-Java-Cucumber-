@@ -20,15 +20,15 @@ public class LoginCommand {
     }
 
     public void Login() {
-        WebElement loginInput = IDriver.driver.findElement(By.id("user_login"));
+        WebElement loginInput = IDriver.getDriver().findElement(By.id("user_login"));
         loginInput.sendKeys(userName);
 
-        WebElement passwordInput = IDriver.driver.findElement(By.id("user_pass"));
+        WebElement passwordInput = IDriver.getDriver().findElement(By.id("user_pass"));
         passwordInput.sendKeys(password);
 
-        WebElement loginButton = IDriver.driver.findElement(By.id("wp-submit"));
+        WebElement loginButton = IDriver.getDriver().findElement(By.id("wp-submit"));
         loginButton.click();
 
-        IDriver.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        IDriver.getDriver().manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
     }
 }

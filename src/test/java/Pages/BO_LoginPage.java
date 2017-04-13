@@ -1,17 +1,14 @@
 package Pages;
 
+import Base.BaseHTML_IDs;
 import Base.IDriver;
 import Commands.LoginCommand;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BO_LoginPage {
     public static void GoToURL() {
-        IDriver.driver.navigate().to(IDriver.Base_BO_URL() + "wp-login.php");
-
-        WebDriverWait wait = new WebDriverWait(IDriver.driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("user_login")));
+        IDriver.getDriver().navigate().to(IDriver.Base_BO_URL());
+        IDriver.WaitForElementWithID(BaseHTML_IDs.bo_LoginPage_user_login,10);
     }
 
     public static LoginCommand LoginAs(String userName) {
@@ -19,12 +16,8 @@ public class BO_LoginPage {
     }
 
     public static boolean ErrorMsg() {
-        WebDriverWait wait = new WebDriverWait(IDriver.driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("login_error")));
-
-        if(IDriver.driver.findElement(By.id("login_error")).isDisplayed()){
-            return true;
-        }
+        IDriver.WaitForElementWithID(BaseHTML_IDs.bo_LoginPage_login_error,10);
+        if(IDriver.getDriver().findElement(By.id(BaseHTML_IDs.bo_LoginPage_login_error)).isDisplayed()){return true;}
         return false;
     }
 }
